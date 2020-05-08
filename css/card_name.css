@@ -1,0 +1,118 @@
+* {
+	border-radius: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: cursive;
+
+}
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block; 
+    clear: both;
+}
+.clearfix{
+	overflow: auto;
+}
+.container-fluid {
+	background: #EBEDEF;
+}
+.navbar-default {
+	background: #32cdff;
+}
+.navbar-brand {
+	padding-top: 0px;
+}
+.navbar-default .navbar-nav>.active>a {
+	background: #32cdff;
+	font-size: 20px;
+	font-family: Florence, cursive;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background: #32cdff;
+	font-size: 20px;
+	font-family: Florence, cursive;
+}
+.btn-default {
+	color: #32cdff;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+.glyphicon {
+	margin-right: 5px;
+}
+.navbar-right>li>a {
+	border: 0px solid white;
+	border-radius: 4px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #32cdff;
+	background-color: white;
+}
+
+.theme {
+	width: 200px;
+	height: 240px;
+	box-shadow: 2px 2px 5px;
+	color: black;
+
+}
+
+.intro {
+	text-align: center;
+}
+.description {
+	text-align: left;
+	padding-left: 75px;
+	max-width: 300px;
+}
+
+.jumbotron {
+	background: white;
+}
+
+.btn-primary {
+	margin: 10px 50%;
+	transform: translateX(-50%);
+}
+.card {
+	position: relative;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    text-align: center;
+    padding: 5px;
+    transition: 0.3s;
+}
+.boxx-border {
+    width: 180px;
+    height: 210px;
+    border: 0.5px solid white;
+    word-wrap: break-word;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 3px 1px 10px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: Arial;
+    font-size: auto;
+}
+.img-thumbnail{
+	width: 180px;
+    height: 210px;
+    border-radius: 20px;
+    box-shadow: 3px 1px 10px;
+}
+.cover{
+	border-radius: 20px;
+    box-shadow: 3px 1px 10px;
+}

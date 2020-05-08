@@ -1,0 +1,68 @@
+* {
+	border-radius: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: cursive;
+}
+.row {
+	margin-bottom: 50px;
+	position: relative;
+}
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block; 
+    clear: both;
+}
+.container-fluid {
+	background: #EBEDEF;
+}
+.navbar-default {
+	background: #32cdff;
+}
+.navbar-brand {
+	padding-top: 0px;
+}
+.navbar-default .navbar-nav>.active>a {
+	background: #32cdff;
+	font-size: 20px;
+	font-family: Florence, cursive;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background: #32cdff;
+	font-size: 20px;
+	font-family: Florence, cursive;
+}
+.btn-default {
+	color: #32cdff;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+.glyphicon {
+	margin-right: 5px;
+}
+.navbar-right>li>a {
+	border: 0px solid;
+	border-radius: 0px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #32cdff;
+	background-color: white;
+}
+
+.input-group {
+	width: 100%;
+}
+.input-group .form-control {
+	border: hidden;
+    border-bottom: 1px solid silver;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    
+	font-size: large;
+}

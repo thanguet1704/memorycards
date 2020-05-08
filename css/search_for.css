@@ -1,0 +1,82 @@
+* {
+	border-radius: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: cursive;
+
+}
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block; 
+    clear: both;
+}
+.container-fluid {
+	background: #EBEDEF;
+}
+.navbar-default {
+	background: #32cdff;
+}
+.navbar-brand {
+	padding-top: 0px;
+}
+.navbar-default .navbar-nav>.active>a {
+	background: #32cdff;
+	font-size: 20px;
+	font-family: Florence, cursive;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background: #32cdff;
+	font-size: 20px;
+	font-family: Florence, cursive;
+}
+.btn-default {
+	color: #32cdff;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+.glyphicon {
+	margin-right: 5px;
+}
+.navbar-right>li>a {
+	border: 0px solid;
+	border-radius: 0px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #32cdff;
+	background-color: white;
+}
+
+.jumbotron {
+	background: white;
+}
+.card_row {
+	padding: 20px 30px;
+}
+.theme {
+	width: 160px;
+	height: 190px;
+	box-shadow: 2px 2px 5px;
+	color: black;
+
+}
+.left {
+	text-align: center;
+}
+.right {
+	text-align: left;
+}
+.right p {
+	font-size: 15px;
+}
+.right h3 {
+	margin-top: 10px;
+}
+#submit_search{
+	border-radius: 10px;
+}

@@ -1,0 +1,14 @@
+#file{
+	display: none;
+}
+.input-label{
+	background: #000099;
+	color: white;
+	padding: 5px;
+	transition: 0.3s;
+	
+}
+.input-label:hover{
+	background: #000033;
+	cursor: pointer;
+}
